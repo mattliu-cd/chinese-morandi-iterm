@@ -9,15 +9,19 @@ if [[ "$mode" != "day" && "$mode" != "night" ]]; then
 fi
 
 if [[ "$mode" == "day" ]]; then
-  theme="中式莫兰迪 · 昼 (Morandi Day)"
-  bg_hex=2D3236; fg_hex=DAD4C6
+  theme="中式莫兰迪 · 昼 (Morandi Day · 宣纸底)"
+  bg_hex=F3EDE0; fg_hex=3B4045
 else
-  theme="中式莫兰迪 · 夜 (Morandi Night)"
+  theme="中式莫兰迪 · 夜 (Morandi Night · 玄黑底)"
   bg_hex=21252B; fg_hex=C9C2B2
 fi
 
-names=(苍灰 朱砂灰 竹青 缃色 黛蓝 藕荷 天青 月白 烟灰 妃色 松花绿 藤黄 石青 紫檀灰 青瓷 宣纸白)
-day_palette=(3A4046 B0766B 8C9C7C C3A97B 7E94A7 A190A2 89A49F DAD4C6 6C7178 C78D82 A5B596 D7C096 98ADC0 B8AAB9 A3BDB6 EDE9DC)
+if [[ "$mode" == "day" ]]; then
+  names=(墨灰 朱砂 竹青 秋香 黛蓝 紫檀 天青 绢色 烟灰 妃色 松花绿 藤黄 石青 藕荷 青瓷 宣纸白)
+else
+  names=(苍灰 朱砂灰 竹青 缃色 黛蓝 藕荷 天青 月白 烟灰 妃色 松花绿 藤黄 石青 紫檀灰 青瓷 宣纸白)
+fi
+day_palette=(3B4045 9E5A50 6B7F5C 9E7E4A 5E748A 7F6E82 6A867F DCD5C3 8B8E93 C07A6F 8A9C77 B89A64 7E94A9 9A8A9D 89A39C FAF7EE)
 night_palette=(31363C A0695F 7E8D70 B29870 6F8496 908193 7A938E C9C2B2 5F646B B57F75 95A486 C5AE86 889DAF A799A8 93ACA6 DCD5C5)
 
 rgb() { printf "%d;%d;%d" $((16#${1:0:2})) $((16#${1:2:2})) $((16#${1:4:2})); }
@@ -38,7 +42,7 @@ echo "  【真彩色卡】两套主题的实际色值(任何窗口中都准确)"
 echo
 strip "昼 Day    0-7:  " "${day_palette[@]:0:8}"
 strip "昼 Day   8-15:  " "${day_palette[@]:8:8}"
-printf "  \033[48;2;%sm\033[38;2;%sm 昼 · 背景 #%s 上的前景 #%s 文字 Abc123 \033[0m\n" "$(rgb 2D3236)" "$(rgb DAD4C6)" 2D3236 DAD4C6
+printf "  \033[48;2;%sm\033[38;2;%sm 昼 · 宣纸 #%s 上的墨色 #%s 文字 Abc123 \033[0m\n" "$(rgb F3EDE0)" "$(rgb 3B4045)" F3EDE0 3B4045
 echo
 strip "夜 Night  0-7:  " "${night_palette[@]:0:8}"
 strip "夜 Night 8-15:  " "${night_palette[@]:8:8}"
@@ -76,7 +80,7 @@ echo "  【git diff 效果】"
 echo
 printf "  \033[38;5;6m@@ -10,6 +10,7 @@ def render():\033[0m\n"
 printf "  \033[38;5;1m-    color = '#FF0000'\033[0m\n"
-printf "  \033[38;5;2m+    color = '#B0766B'  # 朱砂灰\033[0m\n"
+printf "  \033[38;5;2m+    color = '#9E5A50'  # 朱砂\033[0m\n"
 
 echo
 echo "  【超链接 (iTerm 可 ⌘ 点击)】"

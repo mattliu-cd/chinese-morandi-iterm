@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" font-family="Menlo, monospace">
-<rect width="760" height="500" rx="12" fill="#2D3236"/>
-<circle cx="42" cy="34" r="6" fill="#B0766B"/>
-<circle cx="66" cy="34" r="6" fill="#C3A97B"/>
-<circle cx="90" cy="34" r="6" fill="#8C9C7C"/>
-<text x="380" y="40" font-size="15" fill="#DAD4C6" text-anchor="middle">中式莫兰迪 · 昼 · Morandi for iTerm2</text>
-<text x="42" y="80" font-size="14" fill="#8C9C7C">$ git push origin main</text>
-<text x="42" y="106" font-size="14" fill="#7E94A7">Documents/  Downloads/  codework/</text>
-<text x="42" y="132" font-size="14" fill="#8C9C7C">[ok] build passed, 128 tests</text>
-<text x="42" y="158" font-size="14" fill="#B0766B">[error] preset not found</text>
-<text x="42" y="184" font-size="14" fill="#C3A97B">[warn] deprecated option</text>
-<text x="42" y="210" font-size="14" fill="#89A49F">commit 9f3a2c1 (main)</text>
-<rect x="42" y="252" width="72" height="48" rx="6" fill="#3A4046"/>
-<text x="78" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#3A4046</text>
-<text x="78" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 0</text>
-<rect x="127" y="252" width="72" height="48" rx="6" fill="#B0766B"/>
-<text x="163" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#B0766B</text>
-<text x="163" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 1</text>
-<rect x="212" y="252" width="72" height="48" rx="6" fill="#8C9C7C"/>
-<text x="248" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#8C9C7C</text>
-<text x="248" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 2</text>
-<rect x="297" y="252" width="72" height="48" rx="6" fill="#C3A97B"/>
-<text x="333" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#C3A97B</text>
-<text x="333" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 3</text>
-<rect x="382" y="252" width="72" height="48" rx="6" fill="#7E94A7"/>
-<text x="418" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#7E94A7</text>
-<text x="418" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 4</text>
-<rect x="467" y="252" width="72" height="48" rx="6" fill="#A190A2"/>
-<text x="503" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#A190A2</text>
-<text x="503" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 5</text>
-<rect x="552" y="252" width="72" height="48" rx="6" fill="#89A49F"/>
-<text x="588" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#89A49F</text>
-<text x="588" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 6</text>
-<rect x="637" y="252" width="72" height="48" rx="6" fill="#DAD4C6"/>
-<text x="673" y="318" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#DAD4C6</text>
-<text x="673" y="334" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 7</text>
-<rect x="42" y="348" width="72" height="48" rx="6" fill="#6C7178"/>
-<text x="78" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#6C7178</text>
-<text x="78" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 8</text>
-<rect x="127" y="348" width="72" height="48" rx="6" fill="#C78D82"/>
-<text x="163" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#C78D82</text>
-<text x="163" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 9</text>
-<rect x="212" y="348" width="72" height="48" rx="6" fill="#A5B596"/>
-<text x="248" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#A5B596</text>
-<text x="248" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 10</text>
-<rect x="297" y="348" width="72" height="48" rx="6" fill="#D7C096"/>
-<text x="333" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#D7C096</text>
-<text x="333" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 11</text>
-<rect x="382" y="348" width="72" height="48" rx="6" fill="#98ADC0"/>
-<text x="418" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#98ADC0</text>
-<text x="418" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 12</text>
-<rect x="467" y="348" width="72" height="48" rx="6" fill="#B8AAB9"/>
-<text x="503" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#B8AAB9</text>
-<text x="503" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 13</text>
-<rect x="552" y="348" width="72" height="48" rx="6" fill="#A3BDB6"/>
-<text x="588" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#A3BDB6</text>
-<text x="588" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 14</text>
-<rect x="637" y="348" width="72" height="48" rx="6" fill="#EDE9DC"/>
-<text x="673" y="414" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.8">#EDE9DC</text>
-<text x="673" y="430" font-size="11" fill="#DAD4C6" text-anchor="middle" opacity="0.55">ANSI 15</text>
-<text x="42" y="474" font-size="13" fill="#DAD4C6">背景 #2D3236 · 前景 #DAD4C6 · 光标 #C4AA7A · 选区 #46525B</text>
+<rect width="760" height="500" rx="12" fill="#F3EDE0"/>
+<circle cx="42" cy="34" r="6" fill="#9E5A50"/>
+<circle cx="66" cy="34" r="6" fill="#9E7E4A"/>
+<circle cx="90" cy="34" r="6" fill="#6B7F5C"/>
+<text x="380" y="40" font-size="15" fill="#3B4045" text-anchor="middle">中式莫兰迪 · 昼 · Morandi for iTerm2</text>
+<text x="42" y="80" font-size="14" fill="#6B7F5C">$ git push origin main</text>
+<text x="42" y="106" font-size="14" fill="#5E748A">Documents/  Downloads/  codework/</text>
+<text x="42" y="132" font-size="14" fill="#6B7F5C">[ok] build passed, 128 tests</text>
+<text x="42" y="158" font-size="14" fill="#9E5A50">[error] preset not found</text>
+<text x="42" y="184" font-size="14" fill="#9E7E4A">[warn] deprecated option</text>
+<text x="42" y="210" font-size="14" fill="#6A867F">commit 9f3a2c1 (main)</text>
+<rect x="42" y="252" width="72" height="48" rx="6" fill="#3B4045"/>
+<text x="78" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#3B4045</text>
+<text x="78" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 0</text>
+<rect x="127" y="252" width="72" height="48" rx="6" fill="#9E5A50"/>
+<text x="163" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#9E5A50</text>
+<text x="163" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 1</text>
+<rect x="212" y="252" width="72" height="48" rx="6" fill="#6B7F5C"/>
+<text x="248" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#6B7F5C</text>
+<text x="248" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 2</text>
+<rect x="297" y="252" width="72" height="48" rx="6" fill="#9E7E4A"/>
+<text x="333" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#9E7E4A</text>
+<text x="333" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 3</text>
+<rect x="382" y="252" width="72" height="48" rx="6" fill="#5E748A"/>
+<text x="418" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#5E748A</text>
+<text x="418" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 4</text>
+<rect x="467" y="252" width="72" height="48" rx="6" fill="#7F6E82"/>
+<text x="503" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#7F6E82</text>
+<text x="503" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 5</text>
+<rect x="552" y="252" width="72" height="48" rx="6" fill="#6A867F"/>
+<text x="588" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#6A867F</text>
+<text x="588" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 6</text>
+<rect x="637" y="252" width="72" height="48" rx="6" fill="#DCD5C3"/>
+<text x="673" y="318" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#DCD5C3</text>
+<text x="673" y="334" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 7</text>
+<rect x="42" y="348" width="72" height="48" rx="6" fill="#8B8E93"/>
+<text x="78" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#8B8E93</text>
+<text x="78" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 8</text>
+<rect x="127" y="348" width="72" height="48" rx="6" fill="#C07A6F"/>
+<text x="163" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#C07A6F</text>
+<text x="163" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 9</text>
+<rect x="212" y="348" width="72" height="48" rx="6" fill="#8A9C77"/>
+<text x="248" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#8A9C77</text>
+<text x="248" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 10</text>
+<rect x="297" y="348" width="72" height="48" rx="6" fill="#B89A64"/>
+<text x="333" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#B89A64</text>
+<text x="333" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 11</text>
+<rect x="382" y="348" width="72" height="48" rx="6" fill="#7E94A9"/>
+<text x="418" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#7E94A9</text>
+<text x="418" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 12</text>
+<rect x="467" y="348" width="72" height="48" rx="6" fill="#9A8A9D"/>
+<text x="503" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#9A8A9D</text>
+<text x="503" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 13</text>
+<rect x="552" y="348" width="72" height="48" rx="6" fill="#89A39C"/>
+<text x="588" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#89A39C</text>
+<text x="588" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 14</text>
+<rect x="637" y="348" width="72" height="48" rx="6" fill="#FAF7EE"/>
+<text x="673" y="414" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.8">#FAF7EE</text>
+<text x="673" y="430" font-size="11" fill="#3B4045" text-anchor="middle" opacity="0.55">ANSI 15</text>
+<text x="42" y="474" font-size="13" fill="#3B4045">背景 #F3EDE0 · 前景 #3B4045 · 光标 #A8844C · 选区 #DBDACD</text>
 </svg>

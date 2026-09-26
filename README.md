@@ -1,8 +1,8 @@
 # 中式莫兰迪 · Chinese Morandi for iTerm2
 
-> 低饱和中式传统色的 iTerm2 配色方案,包含「昼」「夜」两个暗色主题,可随 macOS 系统外观自动切换。
+> 低饱和中式传统色的 iTerm2 配色方案:「昼」为宣纸浅色底、「夜」为玄黑暗色底,可随 macOS 系统外观自动切换。
 >
-> A muted, Morandi-style iTerm2 color scheme inspired by traditional Chinese colors, with Day/Night variants that can follow the macOS system appearance.
+> A muted, Morandi-style iTerm2 color scheme inspired by traditional Chinese colors — a light Xuan-paper Day variant and a dark Night variant that can follow the macOS system appearance.
 
 ## 预览 Preview
 
@@ -14,7 +14,7 @@
 
 | 主题 | 背景 | 前景 | 适合场景 |
 |------|------|------|----------|
-| 莫兰迪·昼 `Morandi-Day` | 玄青 `#2D3236` | 月白 `#DAD4C6` | 白天 |
+| 莫兰迪·昼 `Morandi-Day` | 宣纸 `#F3EDE0` | 墨色 `#3B4045` | 白天 |
 | 莫兰迪·夜 `Morandi-Night` | 玄黑 `#21252B` | 月白·暗 `#C9C2B2` | 夜晚 |
 
 颜色命名取自传统中国色:朱砂、竹青、缃色、黛蓝、藕荷、天青、青瓷、宣纸……全部做了低饱和的莫兰迪式处理。

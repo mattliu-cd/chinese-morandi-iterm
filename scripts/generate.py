@@ -26,30 +26,30 @@ PALETTES = {
         "profile_name": "莫兰迪·昼 (Morandi Day)",
         "guid": "5B8A1E2C-3D4F-4A5B-9C6D-7E8F0A1B2C3D",
         "colors": {
-            "Background Color": "#2D3236",  # 玄青
-            "Foreground Color": "#DAD4C6",  # 月白
-            "Bold Color": "#EDE9DC",        # 宣纸白
-            "Cursor Color": "#C4AA7A",      # 缃黄
-            "Cursor Text Color": "#2D3236",
-            "Selection Color": "#46525B",   # 黛瓦灰
-            "Selected Text Color": "#EDE9DC",
-            "Link Color": "#8FA9BE",        # 石青
-            "Ansi 0 Color": "#3A4046",      # 苍灰
-            "Ansi 1 Color": "#B0766B",      # 朱砂灰
-            "Ansi 2 Color": "#8C9C7C",      # 竹青
-            "Ansi 3 Color": "#C3A97B",      # 缃色
-            "Ansi 4 Color": "#7E94A7",      # 黛蓝
-            "Ansi 5 Color": "#A190A2",      # 藕荷
-            "Ansi 6 Color": "#89A49F",      # 天青
-            "Ansi 7 Color": "#DAD4C6",      # 月白
-            "Ansi 8 Color": "#6C7178",      # 烟灰
-            "Ansi 9 Color": "#C78D82",      # 妃色
-            "Ansi 10 Color": "#A5B596",     # 松花绿
-            "Ansi 11 Color": "#D7C096",     # 藤黄
-            "Ansi 12 Color": "#98ADC0",     # 石青
-            "Ansi 13 Color": "#B8AAB9",     # 紫檀灰
-            "Ansi 14 Color": "#A3BDB6",     # 青瓷
-            "Ansi 15 Color": "#EDE9DC",     # 宣纸白
+            "Background Color": "#F3EDE0",  # 宣纸
+            "Foreground Color": "#3B4045",  # 墨色
+            "Bold Color": "#23272B",        # 玄黑
+            "Cursor Color": "#A8844C",      # 缃黄·深
+            "Cursor Text Color": "#F3EDE0",
+            "Selection Color": "#DBDACD",   # 浅绢灰
+            "Selected Text Color": "#23272B",
+            "Link Color": "#546E86",        # 石青·深
+            "Ansi 0 Color": "#3B4045",      # 墨灰
+            "Ansi 1 Color": "#9E5A50",      # 朱砂
+            "Ansi 2 Color": "#6B7F5C",      # 竹青
+            "Ansi 3 Color": "#9E7E4A",      # 秋香
+            "Ansi 4 Color": "#5E748A",      # 黛蓝
+            "Ansi 5 Color": "#7F6E82",      # 紫檀
+            "Ansi 6 Color": "#6A867F",      # 天青
+            "Ansi 7 Color": "#DCD5C3",      # 绢色
+            "Ansi 8 Color": "#8B8E93",      # 烟灰
+            "Ansi 9 Color": "#C07A6F",      # 妃色
+            "Ansi 10 Color": "#8A9C77",     # 松花绿
+            "Ansi 11 Color": "#B89A64",     # 藤黄
+            "Ansi 12 Color": "#7E94A9",     # 石青
+            "Ansi 13 Color": "#9A8A9D",     # 藕荷
+            "Ansi 14 Color": "#89A39C",     # 青瓷
+            "Ansi 15 Color": "#FAF7EE",     # 宣纸白·亮
         },
     },
     "night": {
