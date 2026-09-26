@@ -1,0 +1,26 @@
+{
+  "name": "morandi-night",
+  "displayName": "中式莫兰迪·夜 (Morandi Night)",
+  "base": "dark",
+  "colors": {
+    "primary": "#889DAF",
+    "accent": "#93ACA6",
+    "text": "#C9C2B2",
+    "textStrong": "#E3DDCE",
+    "textDim": "#8F8A7B",
+    "textMuted": "#6B675C",
+    "border": "#4A5058",
+    "borderFocus": "#C5AE86",
+    "success": "#95A486",
+    "warning": "#C5AE86",
+    "error": "#B57F75",
+    "diffAdded": "#95A486",
+    "diffRemoved": "#B57F75",
+    "diffAddedStrong": "#B3C4A4",
+    "diffRemovedStrong": "#CF9A91",
+    "diffGutter": "#5F646B",
+    "diffMeta": "#8F8A7B",
+    "roleUser": "#C5AE86",
+    "shellMode": "#A799A8"
+  }
+}

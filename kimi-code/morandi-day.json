@@ -1,0 +1,26 @@
+{
+  "name": "morandi-day",
+  "displayName": "中式莫兰迪·昼 (Morandi Day)",
+  "base": "light",
+  "colors": {
+    "primary": "#546E86",
+    "accent": "#6A867F",
+    "text": "#3B4045",
+    "textStrong": "#23272B",
+    "textDim": "#6E695C",
+    "textMuted": "#8B8E93",
+    "border": "#C9C3B0",
+    "borderFocus": "#A8844C",
+    "success": "#6B7F5C",
+    "warning": "#9E7E4A",
+    "error": "#9E5A50",
+    "diffAdded": "#6B7F5C",
+    "diffRemoved": "#9E5A50",
+    "diffAddedStrong": "#5A6F4C",
+    "diffRemovedStrong": "#84463D",
+    "diffGutter": "#8B8E93",
+    "diffMeta": "#6E695C",
+    "roleUser": "#A8844C",
+    "shellMode": "#7F6E82"
+  }
+}

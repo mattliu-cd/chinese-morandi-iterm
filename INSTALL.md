@@ -31,6 +31,21 @@ iTerm 会自动加载,无需重启:菜单栏 `Profiles` → 选「莫兰迪·昼
 
 参考:[iTerm2 官方文档 - Colors](https://iterm2.com/documentation-preferences-profiles-colors.html)
 
+## Kimi Code CLI 界面主题
+
+仓库附带同色系的 Kimi Code CLI 主题(`kimi-code/morandi-day.json` / `morandi-night.json`):
+
+```bash
+cp kimi-code/*.json ~/.kimi-code/themes/
+```
+
+启用方式(二选一):
+
+- 在 CLI 会话中运行 `/theme`,选择 `Custom: morandi-day` 或 `Custom: morandi-night`;
+- 或编辑 `~/.kimi-code/tui.toml`:`theme = "morandi-night"`,然后在会话里运行 `/reload-tui` 生效。
+
+> CLI 主题在会话启动时确定,无法跟随系统自动切换;系统外观变化后请用 `/theme` 手动切换配套版本。
+
 ## 演示
 
 ```bash
@@ -41,4 +56,5 @@ scripts/color-demo night  # 查看夜主题演示
 ## 卸载
 
 - Color Presets:`Color Presets…` 菜单中选中对应项删除;
-- 动态 Profile:删除 `~/Library/Application Support/iTerm2/DynamicProfiles/Morandi-*.json`。
+- 动态 Profile:删除 `~/Library/Application Support/iTerm2/DynamicProfiles/Morandi-*.json`;
+- CLI 主题:删除 `~/.kimi-code/themes/morandi-*.json`,并把 `tui.toml` 的 `theme` 改回 `auto`。

@@ -44,6 +44,18 @@ scripts/color-demo night  # 夜
 
 会展示 16 色色板、文字样式、git diff / 目录 / 报错等真实场景效果。
 
+## Kimi Code CLI 主题
+
+`kimi-code/` 目录是同色系的 [Kimi Code CLI](https://www.kimi.com/code/docs/) 界面主题(`morandi-day` / `morandi-night`):
+
+```bash
+cp kimi-code/*.json ~/.kimi-code/themes/
+```
+
+然后在 CLI 里运行 `/theme` 选择 `Custom: morandi-day` / `Custom: morandi-night`,或在 `~/.kimi-code/tui.toml` 里设 `theme = "morandi-night"`。
+
+> CLI 主题在会话启动时确定,不能随系统自动切换;系统外观切换后请用 `/theme` 手动切换到配套版本(昼 ↔ morandi-day,夜 ↔ morandi-night)。
+
 ## 调整颜色 & 重新生成
 
 色表集中在 [scripts/generate.py](scripts/generate.py) 的 `PALETTES` 中,改完运行:
@@ -60,6 +72,7 @@ python3 scripts/generate.py
 ├── Morandi-Day.itermcolors      # 昼
 ├── Morandi-Night.itermcolors    # 夜
 ├── dynamic-profiles/            # iTerm2 动态 Profile(固定配色,快速启用)
+├── kimi-code/                   # Kimi Code CLI 界面主题(昼/夜)
 ├── screenshots/                 # README 预览图(SVG)
 ├── scripts/
 │   ├── generate.py              # 生成器(色表 → 所有产物)
