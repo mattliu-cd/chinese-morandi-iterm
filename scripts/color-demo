@@ -1,0 +1,95 @@
+#!/bin/bash
+# 中式莫兰迪配色演示 —— 在应用了该配色的 iTerm 窗口中运行
+# 用法: color-demo [day|night]   (默认 day)
+
+mode=${1:-day}
+if [[ "$mode" != "day" && "$mode" != "night" ]]; then
+  echo "用法: color-demo [day|night]" >&2
+  exit 1
+fi
+
+if [[ "$mode" == "day" ]]; then
+  theme="中式莫兰迪 · 昼 (Morandi Day)"
+  bg_hex=2D3236; fg_hex=DAD4C6
+else
+  theme="中式莫兰迪 · 夜 (Morandi Night)"
+  bg_hex=21252B; fg_hex=C9C2B2
+fi
+
+names=(苍灰 朱砂灰 竹青 缃色 黛蓝 藕荷 天青 月白 烟灰 妃色 松花绿 藤黄 石青 紫檀灰 青瓷 宣纸白)
+day_palette=(3A4046 B0766B 8C9C7C C3A97B 7E94A7 A190A2 89A49F DAD4C6 6C7178 C78D82 A5B596 D7C096 98ADC0 B8AAB9 A3BDB6 EDE9DC)
+night_palette=(31363C A0695F 7E8D70 B29870 6F8496 908193 7A938E C9C2B2 5F646B B57F75 95A486 C5AE86 889DAF A799A8 93ACA6 DCD5C5)
+
+rgb() { printf "%d;%d;%d" $((16#${1:0:2})) $((16#${1:2:2})) $((16#${1:4:2})); }
+
+strip() {
+  local label=$1; shift
+  echo "  $label"
+  printf "  "
+  local h
+  for h in "$@"; do printf "\033[48;2;%sm    \033[0m" "$(rgb "$h")"; done
+  echo
+}
+
+echo
+echo "  ── $theme ──"
+echo
+echo "  【真彩色卡】两套主题的实际色值(任何窗口中都准确)"
+echo
+strip "昼 Day    0-7:  " "${day_palette[@]:0:8}"
+strip "昼 Day   8-15:  " "${day_palette[@]:8:8}"
+printf "  \033[48;2;%sm\033[38;2;%sm 昼 · 背景 #%s 上的前景 #%s 文字 Abc123 \033[0m\n" "$(rgb 2D3236)" "$(rgb DAD4C6)" 2D3236 DAD4C6
+echo
+strip "夜 Night  0-7:  " "${night_palette[@]:0:8}"
+strip "夜 Night 8-15:  " "${night_palette[@]:8:8}"
+printf "  \033[48;2;%sm\033[38;2;%sm 夜 · 背景 #%s 上的前景 #%s 文字 Abc123 \033[0m\n" "$(rgb 21252B)" "$(rgb C9C2B2)" 21252B C9C2B2
+
+echo
+echo "  【当前窗口 ANSI 16 色】随当前 Profile 配色渲染"
+echo
+for i in $(seq 0 15); do
+  n=${names[$i]}
+  pad=$(( 6 - ${#n} * 2 ))
+  (( pad < 0 )) && pad=0
+  printf "  %2d  \033[48;5;%dm      \033[0m  %s%*s \033[38;5;%dm前景文字 Abc123\033[0m\n" \
+    "$i" "$i" "$n" "$pad" "" "$i"
+done
+
+echo
+echo "  【文字样式】"
+echo
+echo "  常规 The quick brown fox 0123456789"
+printf "  \033[1m粗体 Bold 文字\033[0m   \033[3m斜体 Italic\033[0m   \033[4m下划线 Underline\033[0m   \033[2m暗淡 Dim\033[0m\n"
+
+echo
+echo "  【常见场景】"
+echo
+printf "  \033[38;5;2m✔ 编译成功 / 测试通过 (绿)\033[0m\n"
+printf "  \033[38;5;1m✘ 错误 Error: file not found (红)\033[0m\n"
+printf "  \033[38;5;3m⚠ 警告 Warning: deprecated API (黄)\033[0m\n"
+printf "  \033[38;5;4mdrwxr-xr-x  Documents/  目录 (蓝)\033[0m\n"
+printf "  \033[38;5;5m分支 main → feature/morandi (品红)\033[0m\n"
+printf "  \033[38;5;6mcommit 9f3a2c1 哈希 (青)\033[0m\n"
+
+echo
+echo "  【git diff 效果】"
+echo
+printf "  \033[38;5;6m@@ -10,6 +10,7 @@ def render():\033[0m\n"
+printf "  \033[38;5;1m-    color = '#FF0000'\033[0m\n"
+printf "  \033[38;5;2m+    color = '#B0766B'  # 朱砂灰\033[0m\n"
+
+echo
+echo "  【超链接 (iTerm 可 ⌘ 点击)】"
+echo
+printf "  \033]8;;https://github.com/mattliu-cd\033\\https://github.com/mattliu-cd\033]8;;\033\\\n"
+
+echo
+echo "  ────────────────────────────────────────"
+echo "  小提示:"
+echo "  · 用鼠标选中上面任意文字 → 查看黛瓦灰选区色"
+echo "  · 闪烁的光标本身就是缃黄色"
+echo "  · ANSI 色区由当前窗口 Profile 决定;真彩色卡"
+echo "    区显示的是两套主题的固定实际色值"
+echo "  · 24-bit 真彩色程序(如 vim 主题)自带颜色,"
+echo "    不受 iTerm 配色方案影响"
+echo
